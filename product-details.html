@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="product-detail.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="loader-circle-37"></div>
+    </div>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a class="animate_under-line" href="index.html">Home</a></li>
+          <li>
+            <a class="animate_under-line" href="shop.html">Shop</a>
+          </li>
+          <li><a class="animate_under-line" href="blog.html">Blog</a></li>
+          <li><a class="animate_under-line" href="about.html">About</a></li>
+          <li><a class="animate_under-line" href="contact.html">Contact</a></li>
+          <li>
+            <a class="active animate_under-line" href="product-details.html"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-bag"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                /></svg
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="bi bi-x-lg"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="bi bi-list"></i>
+      </div>
+    </section>
+
+    <div class="loader"></div>
+
+    <div class="container-prd">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="main-img">
+            <img
+              id="mainPhoto"
+              class="img-fluid"
+              src="img/Product-detail/pexels-willsantt-1953448.jpg"
+              alt="ProductS"
+            />
+            <div class="row my-3 previews">
+              <div class="col-md-2">
+                <img
+                  class="w-100 imgCarousel"
+                  src="img/Product-detail/pexels-konstantin-mishchenko-1926769.jpg"
+                  alt="Sale"
+                />
+              </div>
+              <div class="col-md-2">
+                <img
+                  class="w-100 imgCarousel"
+                  src="img/Product-detail/pexels-elias-de-carvalho-1007018.jpg"
+                  alt="Sale"
+                />
+              </div>
+              <div class="col-md-2">
+                <img
+                  class="w-100 imgCarousel"
+                  src="img/Product-detail/pexels-quang-anh-ha-nguyen-884979.jpg"
+                  alt="Sale"
+                />
+              </div>
+              <div class="col-md-2">
+                <img
+                  class="w-100 imgCarousel"
+                  src="img/Product-detail/pexels-willsantt-1953448.jpg"
+                  alt="Sale"
+                />
+              </div>
+              <div class="col-md-2">
+                <img
+                  class="w-100 imgCarousel"
+                  src="img/Product-detail/pexels-ksenia-chernaya-3951783.jpg"
+                  alt="Sale"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pl-50">
+          <div class="main-description px-2">
+            <h1 class="category">Levi's Essential Western Denim Shirt</h1>
+            <div class="flex mb-30">
+              <div class="product-price">$120.00</div>
+              <div class="star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <span class="reviews">2 reviews</span>
+              </div>
+            </div>
+            <div class="sub_description">
+              <div class="product-single__shortdes">
+                Captivate with this shirt’s versatile urban look that works as
+                well at happy hour as it does in the back yard. The real mother
+                of pearl buttons and embroidered crocodile...
+              </div>
+            </div>
+            <div class="group-single__items has-border">
+              <p class="product-single__tags d-flex">
+                <span class="label control-label">Tags:</span>
+                <span class="list-tags">
+                  <a href="/collections/all/acessories" title="">Acessories</a>,
+                  <a href="/collections/all/men" title="">Men</a>,
+                  <a href="/collections/all/police" title="">Police</a>,
+                  <a href="/collections/all/vendor-levis" title=""
+                    >Vendor Levi's</a
+                  >,
+                  <a href="/collections/all/women" title="">Women</a>
+                </span>
+              </p>
+              <p class="product-single__sku">
+                <span class="label control-label">SKU:</span>
+                <span class="label-sku variant-sku">YX180-27</span>
+              </p>
+              <p class="product-single__cat d-flex">
+                <span class="label control-label">Category:</span>
+                <span class="label-cate">
+                  <a href="/collections/best-sellers" title="Best Sellers"
+                    >Best Sellers,</a
+                  >
+                  <a
+                    href="/collections/featured-products"
+                    title="Featured Products"
+                    >Featured Products,</a
+                  >
+                  <a href="/collections/new-arrivals" title="New Arrivals"
+                    >New Arrivals,</a
+                  >
+                  <a href="/collections/on-sale" title="On Sale">On Sale,</a>
+                  <a
+                    href="/collections/product-variants"
+                    title="Product Variants"
+                    >Product Variants,</a
+                  >
+                  <a href="/collections/women-variant" title="Women variant"
+                    >Women variant,</a
+                  >
+
+                  <a href="/collections/wonmen" title="Wonmen">Wonmen</a>
+                </span>
+              </p>
+              <p class="product-single__cat d-flex">
+                <span class="label control-label">Color:</span>
+                <span class="label-cate">
+                  <a href="/collections/best-sellers">DarkOliveGreen</a>,
+                  <a href="/collections/featured-products"> Black</a>
+                  <a href="/collections/new-arrivals">Indianred</a>,
+                  <a href="/collections/on-sale" title="On Sale">White</a>,
+                  <a href="/collections/product-variants">DarkSlateBlue</a>
+                </span>
+              </p>
+            </div>
+
+            <div class="size-wrapper pt-50 pb-50">
+              <span class="control-label">Size: XS</span>
+              <div class="flex size">
+                <button class="btn-size current">XS</button>
+                <button class="btn-size">S</button>
+                <button class="btn-size">M</button>
+                <button class="btn-size">L</button>
+                <button class="btn-size">XL</button>
+              </div>
+            </div>
+            <div class="size-wrapper flex">
+              <span class="control-label mb-15">NOTES</span>
+              <textarea
+                rows="5"
+                placeholder="Write here your notes for the order"
+              ></textarea>
+            </div>
+            <div class="buy-it pt-30">
+              <span class="control-label">QUANTITY</span>
+              <div class="flex mt-15 mb-15">
+                <div class="number-input">
+                  <button
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                  ></button>
+                  <input
+                    class="quantity"
+                    min="0"
+                    max="100"
+                    name="quantity"
+                    value="1"
+                    type="number"
+                  />
+                  <button
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                    class="plus"
+                  ></button>
+                </div>
+                <div class="product-form__item">
+                  <button class="hover_x">
+                    <span id="AddToCartText">Add to bag</span>
+                    <i class="zmdi-long-arrow-right bi bi-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+              <button class="buy">Buy it now</button>
+              <!-- <input type="number" class="form-control" value="1" min="0" /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row related">
+        <div class="title_block text-center">Related Products</div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+          <div class="properties pb-30">
+            <div class="properties-card">
+              <div class="properties-img">
+                <a href="product-details.html"
+                  ><img src="img/Slick/latest1.jpg.webp" alt=""
+                /></a>
+                <div class="social_icon">
+                  <a href="#" tabindex="0"><i class="bi bi-cart"></i></a>
+                  <a href="#" tabindex="0"><i class="bi bi-heart"></i></a>
+                  <a href="#" tabindex="0"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+              <div class="properties-caption properties-caption2">
+                <h3>
+                  <a href="product-details.html">Cashmere Tank + Bag</a>
+                </h3>
+                <div class="properties-footer">
+                  <div class="price">
+                    <span>$98.00 <span>$120.00</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+          <div class="properties pb-30">
+            <div class="properties-card">
+              <div class="properties-img">
+                <a href="product-details.html"
+                  ><img src="img/Slick/latest1.jpg.webp" alt=""
+                /></a>
+                <div class="social_icon">
+                  <a href="#" tabindex="0"><i class="bi bi-cart"></i></a>
+                  <a href="#" tabindex="0"><i class="bi bi-heart"></i></a>
+                  <a href="#" tabindex="0"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+              <div class="properties-caption properties-caption2">
+                <h3>
+                  <a href="product-details.html">Cashmere Tank + Bag</a>
+                </h3>
+                <div class="properties-footer">
+                  <div class="price">
+                    <span>$98.00 <span>$120.00</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+          <div class="properties pb-30">
+            <div class="properties-card">
+              <div class="properties-img">
+                <a href="product-details.html"
+                  ><img src="img/Slick/latest1.jpg.webp" alt=""
+                /></a>
+                <div class="social_icon">
+                  <a href="#" tabindex="0"><i class="bi bi-cart"></i></a>
+                  <a href="#" tabindex="0"><i class="bi bi-heart"></i></a>
+                  <a href="#" tabindex="0"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+              <div class="properties-caption properties-caption2">
+                <h3>
+                  <a href="product-details.html">Cashmere Tank + Bag</a>
+                </h3>
+                <div class="properties-footer">
+                  <div class="price">
+                    <span>$98.00 <span>$120.00</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+          <div class="properties pb-30">
+            <div class="properties-card">
+              <div class="properties-img">
+                <a href="product-details.html"
+                  ><img src="img/Slick/latest1.jpg.webp" alt=""
+                /></a>
+                <div class="social_icon">
+                  <a href="#" tabindex="0"><i class="bi bi-cart"></i></a>
+                  <a href="#" tabindex="0"><i class="bi bi-heart"></i></a>
+                  <a href="#" tabindex="0"><i class="bi bi-zoom-in"></i></a>
+                </div>
+              </div>
+              <div class="properties-caption properties-caption2">
+                <h3>
+                  <a href="product-details.html">Cashmere Tank + Bag</a>
+                </h3>
+                <div class="properties-footer">
+                  <div class="price">
+                    <span>$98.00 <span>$120.00</span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- RELATED PRODUCTS -->
+    </div>
+
+    <footer>
+      <div class="footer-wrapper section-p1">
+        <section id="subscribe-area">
+          <div class="container">
+            <h3>Subscribe Newsletter</h3>
+            <p>Subscribe newsletter to get 5% on all products.</p>
+          </div>
+          <div class="container">
+            <form action="#">
+              <input type="text" placeholder="Enter your email" />
+              <button>Subscribe</button>
+            </form>
+          </div>
+          <div class="container">
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-youtube"></i></a>
+          </div>
+        </section>
+        <section id="subscribe-area">
+          <div class="container2">
+            <a href="" alt=""><img src="img/logo.png" /></a>
+          </div>
+          <div class="container2">
+            <h4>Shop Men</h4>
+            <ul>
+              <li><a href="" alt="">Clothing Fashion</a></li>
+              <li><a href="" alt="">Winter</a></li>
+              <li><a href="" alt="">Summer</a></li>
+              <li><a href="" alt="">Formal</a></li>
+              <li><a href="" alt="">Casual</a></li>
+            </ul>
+          </div>
+          <div class="container2">
+            <h4>Shop Women</h4>
+            <ul>
+              <li><a href="" alt="">Clothing Fashion</a></li>
+              <li><a href="" alt="">Winter</a></li>
+              <li><a href="" alt="">Summer</a></li>
+              <li><a href="" alt="">Formal</a></li>
+              <li><a href="" alt="">Casual</a></li>
+            </ul>
+          </div>
+          <div class="container2">
+            <h4>Baby Collection</h4>
+            <ul>
+              <li><a href="" alt="">Clothing Fashion</a></li>
+              <li><a href="" alt="">Winter</a></li>
+              <li><a href="" alt="">Summer</a></li>
+              <li><a href="" alt="">Formal</a></li>
+              <li><a href="" alt="">Casual</a></li>
+            </ul>
+          </div>
+          <div class="container2">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="" alt="">Track Your Order</a></li>
+              <li><a href="" alt="">Support</a></li>
+              <li><a href="" alt="">FAQ</a></li>
+              <li><a href="" alt="">Carrier</a></li>
+              <li><a href="" alt="">About</a></li>
+              <li><a href="" alt="">Contact Us</a></li>
+            </ul>
+          </div>
+        </section>
+        <div id="footer-bottom">
+          <div class="subscribe-area">
+            <div class="footer-border">
+              <p style="margin: 0">
+                Copyright ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                <!-- All rights reserved | This template is made with 
+                            <i style="color: red" class="bi bi-heart-fill"></i> 
+                                by 
+                            <a href="">Huy</a> -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="productDetail.js"></script>
+  </body>
+</html>

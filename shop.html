@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="shoppage.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="loader-circle-37"></div>
+    </div>
+    <section id="header">
+      <a href="#"><img src="img/logo.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a class="animate_under-line" href="index.html">Home</a></li>
+          <li>
+            <a class="active animate_under-line" href="shop.html">Shop</a>
+          </li>
+          <li><a class="animate_under-line" href="blog.html">Blog</a></li>
+          <li><a class="animate_under-line" href="about.html">About</a></li>
+          <li><a class="animate_under-line" href="contact.html">Contact</a></li>
+          <li>
+            <a class="animate_under-line" href="product-details.html"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-bag"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"
+                /></svg
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="bi bi-x-lg"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <i id="bar" class="bi bi-list"></i>
+      </div>
+    </section>
+
+    <section id="page-header">
+      <h2>#Stay at home</h2>
+      <p>Save more with coupons & up to 70% off!</p>
+    </section>
+    <div class="loader"></div>
+    <section id="category">
+      <div class="hero-area mt-80">
+        <div class="containerr">
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="slider-area">
+                <div
+                  class="slider-height2 slider-bg4 d-flex align-items-center justify-content-center"
+                >
+                  <div class="hero-caption hero-caption2">
+                    <h2>Category</h2>
+                    <nav aria-label="breadcrumb">
+                      <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item">
+                          <a href="index.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                          <a href="#">Category</a>
+                        </li>
+                      </ol>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sub_category">
+      <div class="listing-area pt-50 pb-50">
+        <div class="containerr">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-4">
+              <div class="category-listing mb-50">
+                <div class="single-listing">
+                  <div class="select-Categories pb-30">
+                    <div class="select-job-items2 mb-30">
+                      <div class="col-xl-12">
+                        <select name="select2" style="display: none"></select>
+                        <div class="nice-select" tabindex="0">
+                          <span class="current">Category</span>
+                          <ul class="list">
+                            <li data-value="" class="option selected focus">
+                              Category
+                            </li>
+                            <li data-value="" class="option">Category 1</li>
+                            <li data-value="" class="option">Category 2</li>
+                            <li data-value="" class="option">Category 3</li>
+                            <li data-value="" class="option">Category 4</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="select-job-items2 mb-30">
+                      <div class="col-xl-12">
+                        <select name="select2" style="display: none"></select>
+                        <div class="nice-select1" tabindex="0">
+                          <span class="current1">Type</span>
+                          <ul class="list1">
+                            <li data-value="" class="option1 selected focus">
+                              Type
+                            </li>
+                            <li data-value="" class="option1">Type 1</li>
+                            <li data-value="" class="option1">Type 2</li>
+                            <li data-value="" class="option1">Type 3</li>
+                            <li data-value="" class="option1">Type 4</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="select-job-items2 mb-30">
+                      <div class="col-xl-12">
+                        <select name="select2" style="display: none"></select>
+                        <div class="nice-select2" tabindex="0">
+                          <span class="current2">Size</span>
+                          <ul class="list2">
+                            <li data-value="" class="option2 selected focus">
+                              XXL
+                            </li>
+                            <li data-value="" class="option2">XL</li>
+                            <li data-value="" class="option2">LG</li>
+                            <li data-value="" class="option2">M</li>
+                            <li data-value="" class="option2">sm</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="select-job-items2 mb-30">
+                      <div class="col-xl-12">
+                        <select name="select2" style="display: none"></select>
+                        <div class="nice-select3" tabindex="0">
+                          <span class="current3">Color</span>
+                          <ul class="list3">
+                            <li data-value="" class="option3 selected focus">
+                              Color
+                            </li>
+                            <li data-value="" class="option3">Red</li>
+                            <li data-value="" class="option3">Green</li>
+                            <li data-value="" class="option3">Blue</li>
+                            <li data-value="" class="option3">skyblue</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="select-Categories pb-30">
+                    <div class="small-tittle mb-20">
+                      <h4>Filter by Genres</h4>
+                    </div>
+                    <label class="container"
+                      >History
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="container"
+                      >Horror - Thriller
+                      <input type="checkbox" checked="checked active" />
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="container"
+                      >Love Stories
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="container"
+                      >Science Fiction
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="container"
+                      >Biography
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                  <div class="select-Categories pb-20">
+                    <div class="small-tittle mb-20">
+                      <h4>Filter by Brand</h4>
+                    </div>
+                    <label class="container"
+                      >Green Publications
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="container"
+                      >Anondo Publications
+                      <input type="checkbox" checked="checked active" />
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="container"
+                      >Rinku Publications
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="container"
+                      >Sheba Publications
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                    <label class="container"
+                      >Red Publications
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-9 col-lg-8 col-md-8">
+              <div class="latest-items latest-items2">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest1.jpg.webp" alt=""
+                          /></a>
+                          <div class="social_icon">
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-cart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-heart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-zoom-in"></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html"
+                              >Cashmere Tank + Bag</a
+                            >
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest2.jpg.webp" alt=""
+                          /></a>
+                          <div class="social_icon">
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-cart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-heart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-zoom-in"></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html"
+                              >Cashmere Tank + Bag</a
+                            >
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest3.jpg.webp" alt=""
+                          /></a>
+                          <div class="social_icon">
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-cart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-heart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-zoom-in"></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html"
+                              >Cashmere Tank + Bag</a
+                            >
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest4.jpg.webp" alt=""
+                          /></a>
+                          <div class="social_icon">
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-cart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-heart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-zoom-in"></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html"
+                              >Cashmere Tank + Bag</a
+                            >
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest1.jpg.webp" alt=""
+                          /></a>
+                          <div class="social_icon">
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-cart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-heart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-zoom-in"></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html"
+                              >Cashmere Tank + Bag</a
+                            >
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest2.jpg.webp" alt=""
+                          /></a>
+                          <div class="social_icon">
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-cart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-heart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-zoom-in"></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html"
+                              >Cashmere Tank + Bag</a
+                            >
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest4.jpg.webp" alt=""
+                          /></a>
+                          <div class="social_icon">
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-cart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-heart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-zoom-in"></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html"
+                              >Cashmere Tank + Bag</a
+                            >
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest1.jpg.webp" alt=""
+                          /></a>
+                          <div class="social_icon">
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-cart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-heart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-zoom-in"></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html"
+                              >Cashmere Tank + Bag</a
+                            >
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest2.jpg.webp" alt=""
+                          /></a>
+                          <div class="social_icon">
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-cart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-heart"></i
+                            ></a>
+                            <a href="#" tabindex="0"
+                              ><i class="bi bi-zoom-in"></i
+                            ></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html"
+                              >Cashmere Tank + Bag</a
+                            >
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest3.jpg.webp" alt=""
+                          /></a>
+                          <div class="socal_icon">
+                            <a href="#"><i class="ti-shopping-cart"></i></a>
+                            <a href="#"><i class="ti-heart"></i></a>
+                            <a href="#"><i class="ti-zoom-in"></i></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html">Cashmere Tank + Bag</a>
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest4.jpg.webp" alt=""
+                          /></a>
+                          <div class="socal_icon">
+                            <a href="#"><i class="ti-shopping-cart"></i></a>
+                            <a href="#"><i class="ti-heart"></i></a>
+                            <a href="#"><i class="ti-zoom-in"></i></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html">Cashmere Tank + Bag</a>
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6">
+                    <div class="properties pb-30">
+                      <div class="properties-card">
+                        <div class="properties-img">
+                          <a href="product-details.html"
+                            ><img src="img/Slick/latest1.jpg.webp" alt=""
+                          /></a>
+                          <div class="socal_icon">
+                            <a href="#"><i class="ti-shopping-cart"></i></a>
+                            <a href="#"><i class="ti-heart"></i></a>
+                            <a href="#"><i class="ti-zoom-in"></i></a>
+                          </div>
+                        </div>
+                        <div class="properties-caption properties-caption2">
+                          <h3>
+                            <a href="product-details.html">Cashmere Tank + Bag</a>
+                          </h3>
+                          <div class="properties-footer">
+                            <div class="price">
+                              <span>$98.00 <span>$120.00</span></span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <!-- <div class="filter-price">
+                        <div class="category-listing">
+                            <select>
+                                <option value="Category"></option>
+                                <option value="Category 1"></option>
+                                <option value="Category 2"></option>
+                                <option value="Category 3"></option>
+                                <option value="Category 4"></option>
+                            </select>
+                            <div class="nice-select">
+                                <span class="current">Category</span>
+                                <ul class="list">
+                                    <li data-value="" class="option selected focus">Category</li>
+                                    <li data-value="" class="option">Category 1</li>
+                                    <li data-value="" class="option">Category 2</li>
+                                    <li data-value="" class="option">Category 3</li>
+                                    <li data-value="" class="option">Category 4</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+            <div class="filter-product"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pagination" class="section-p1">
+      <a href="">1</a>
+      <a href="">2</a>
+      <a href=""><i class="bi bi-arrow-right"></i></a>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper section-p1">
+        <section id="subscribe-area">
+          <div class="container">
+            <h3>Subscribe Newsletter</h3>
+            <p>Subscribe newsletter to get 5% on all products.</p>
+          </div>
+          <div class="container">
+            <form action="#">
+              <input type="text" placeholder="Enter your email" />
+              <button>Subscribe</button>
+            </form>
+          </div>
+          <div class="container">
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-youtube"></i></a>
+          </div>
+        </section>
+        <section id="subscribe-area">
+          <div class="container2">
+            <a href="" alt=""><img src="img/logo.png" /></a>
+          </div>
+          <div class="container2">
+            <h4>Shop Men</h4>
+            <ul>
+              <li><a href="" alt="">Clothing Fashion</a></li>
+              <li><a href="" alt="">Winter</a></li>
+              <li><a href="" alt="">Summer</a></li>
+              <li><a href="" alt="">Formal</a></li>
+              <li><a href="" alt="">Casual</a></li>
+            </ul>
+          </div>
+          <div class="container2">
+            <h4>Shop Women</h4>
+            <ul>
+              <li><a href="" alt="">Clothing Fashion</a></li>
+              <li><a href="" alt="">Winter</a></li>
+              <li><a href="" alt="">Summer</a></li>
+              <li><a href="" alt="">Formal</a></li>
+              <li><a href="" alt="">Casual</a></li>
+            </ul>
+          </div>
+          <div class="container2">
+            <h4>Baby Collection</h4>
+            <ul>
+              <li><a href="" alt="">Clothing Fashion</a></li>
+              <li><a href="" alt="">Winter</a></li>
+              <li><a href="" alt="">Summer</a></li>
+              <li><a href="" alt="">Formal</a></li>
+              <li><a href="" alt="">Casual</a></li>
+            </ul>
+          </div>
+          <div class="container2">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="" alt="">Track Your Order</a></li>
+              <li><a href="" alt="">Support</a></li>
+              <li><a href="" alt="">FAQ</a></li>
+              <li><a href="" alt="">Carrier</a></li>
+              <li><a href="" alt="">About</a></li>
+              <li><a href="" alt="">Contact Us</a></li>
+            </ul>
+          </div>
+        </section>
+        <div id="footer-bottom">
+          <div class="subscribe-area">
+            <div class="footer-border">
+              <p style="margin: 0">
+                Copyright ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                <!-- All rights reserved | This template is made with 
+                            <i style="color: red" class="bi bi-heart-fill"></i> 
+                                by 
+                            <a href="">Huy</a> -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
