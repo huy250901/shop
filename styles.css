@@ -1538,12 +1538,12 @@ footer {
   transition: 0.4s ease;
 }
 
-.blog_right_sidebar a :hover,
-.blog_right_sidebar a:hover,
-.blog_item a:hover,
+/* .blog_right_sidebar a :hover, */
+/* .blog_right_sidebar a:hover, */
+/* .blog_item a:hover, */
 .blog_item .blog_item_img a:hover {
-  background: -webkit-linear-gradient(131deg, #ff2020 0%, #ff2020 99%);
-  -webkit-text-fill-color: transparent;
+  /* background: -webkit-linear-gradient(131deg, #ff2020 0%, #ff2020 99%); */
+  /* -webkit-text-fill-color: transparent; */
   text-decoration: none;
   transition: 0.4s;
 }
