@@ -34,9 +34,6 @@ window.onload = function () {
     ],
   });
 };
-// prevArrow: '<button type="button" class="slick-prev"></button>',
-// nextArrow: '<button type="button" class="slick-next"></button>',
-
 const bar = document.getElementById("bar");
 const nav = document.getElementById("navbar");
 const close = document.getElementById("close");
@@ -44,7 +41,6 @@ const select = document.querySelector(".nice-select");
 const select1 = document.querySelector(".nice-select1");
 const select2 = document.querySelector(".nice-select2");
 const select3 = document.querySelector(".nice-select3");
-// const select = document.querySelectorAll(".nice-select");
 var list = document.querySelector(".list");
 var list1 = document.querySelector(".list1");
 var list2 = document.querySelector(".list2");

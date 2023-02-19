@@ -7,13 +7,10 @@ span {
   cursor: auto;
   user-select: text;
 }
+
 .container-prd {
   padding: 120px 80px 80px 80px;
 }
-
-/* .text-bold {
-  font-weight: 800;
-} */
 
 .main-description .category {
   color: #222222;
@@ -204,16 +201,12 @@ span {
   font-weight: bold;
 }
 
-/* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* Make preview images responsive  */
   .previews img {
     width: 100%;
     height: auto;
   }
 }
-
-/* Custom input Quantity */
 
 input[type="number"] {
   -webkit-appearance: textfield;
@@ -292,7 +285,6 @@ input[type="number"]::-webkit-outer-spin-button {
   width: 100%;
   height: 54px;
   background-color: #dcdcdc;
-  /* outline: none; */
   border: 1px solid transparent;
   transition: 0.3s ease;
   position: relative;
